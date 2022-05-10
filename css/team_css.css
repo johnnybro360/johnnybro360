@@ -41,7 +41,7 @@ ul#nav_container {
 
 nav li {
   float: left;
-  font-size: 1em;
+  font-size: 1.5em;
   font-family: sans-serif;
 }
 
@@ -58,7 +58,7 @@ nav li a:hover {
 	border-radius: 15px;
 }
 
-h2 {
+h3 {
   position: absolute;
   top: 800px;
   left: 550px;
@@ -90,7 +90,7 @@ h2 {
 }
 
 #coach tr:hover {
-  background-color: #f1592a;
+  background-color: rgba(221,195,236,1.00);
 }
 
 #premiere {
@@ -111,7 +111,7 @@ h2 {
   background-color: #f1592a;
 }
 
-h3 {text-align: center;
+h4 {text-align: center;
   font-family: sans-serif;
   font-size: 1.5em;
   font-weight: bold;
@@ -160,7 +160,7 @@ footer p {
 	left: 580px;
 right: 10px;
 	align-items: center;*/
-  color: #662d91;
+  color: rgba(83,0,146,1.00);
 	font-size:1.2em;
 	font-family: sans-serif;
 }
@@ -189,31 +189,6 @@ top:380px;
 right:100px;
 	border-radius: 15px;}
 
-
-/* animation: slide 3s ease-out;
-}
-
-@keyframes slide {
-  from {
-    right: -100px;
-    opacity: 0;
-  }
-  to {
-    right: 100px;
-    opacity: 1;
-  }
-}
-
-@keyframes slideback {
-  from {
-    left: 100px;
-    opacity: 1;
-  }
-  to {
-    left: -100px;
-    opacity: 0;
-  }
-}*/
 
 .container:hover .overlay {
 	opacity:1;
@@ -244,4 +219,36 @@ right:100px;
   background-color: #f1592a;
  cursor: pointer;
 line-height: 60px;
+}
+
+h2 {
+  position: absolute;
+  top: 130px;
+  right: 250px;
+  font-family: sans-serif;
+  font-size: 3em;
+  color: #f1592a;
+  
+  animation: slide 2s ease-out;
+}
+
+@keyframes slide {
+  from {
+    right: -100px;
+    opacity: 0;
+  }
+  to {
+    right: 250px;
+    opacity: 1;
+  }
+}
+@keyframes slideback {
+  from {
+    right: 250px;
+    opacity: 1;
+  }
+  to {
+    right: 0px;
+    opacity: 0;
+  }
 }

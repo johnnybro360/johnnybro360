@@ -41,7 +41,7 @@ ul#nav_container {
 
 nav li {
   float: left;
-  font-size: 1em;
+  font-size: 1.5em;
   font-family: sans-serif;
 }
 
@@ -154,7 +154,7 @@ footer p {
 	left: 580px;
   right: 10px;
 	align-items: center;*/
-  color: #662d91;
+  color: rgba(83,0,146,1.00);
 	font-size:1.2em;
 	font-family: sans-serif;
 }

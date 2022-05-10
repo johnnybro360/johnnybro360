@@ -43,7 +43,7 @@ ul#nav_container {
 
 nav li {
   float: left;
-  font-size: 1em;
+  font-size: 1.5em;
   font-family: sans-serif;
 }
 
@@ -94,7 +94,7 @@ h2 {
 }
 #contact {
   position: absolute;
-  top: 100px;
+  top: 90px;
   left: 200px;
   height: auto;
   width: 800px;
@@ -104,14 +104,14 @@ h2 {
 
 #contact td,
 #customers th {
-  border: 1px solid #ddd;
-  padding: 10px;
+  /*border-bottom: 1px solid #ddd;*/
+  padding: 13px 5px 13px 5px;
   font-size: 20px;
-  color: #f1592a;
+  color: #662d91;
 }
 
 #contact tr:hover {
-  background-color: #662d91;
+  background-color: rgba(221,195,236,1.00);
 }
 
 #contact th:hover {
@@ -120,7 +120,7 @@ h2 {
 }
 
 #contact th {
-  font-size: 25px;
+  font-size: 30px;
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: center;
@@ -162,7 +162,8 @@ select {
   width: 51%;
   padding: 12px 20px;
   margin: 8px 0;
-
+color: #662d91;
+	font-family: sans-serif;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -175,31 +176,46 @@ select {
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
-  border-radius: 4px;
   box-sizing: border-box;
+	color: #662d91;
+		border-radius: 4px;
+
+	font-family: sans-serif;
 }
 
 input[type="submit"] {
   width: 94%;
   background-color: #662d91;
-  color: white;
   padding: 14px 0px;
   margin: 8px 0;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+	color: #f1592a;
+	font-family: sans-serif;
 }
 
 input[type="submit"]:hover {
   background-color: #f1592a;
+	color: #662d91;
 }
+   
 
+textarea {
+	 font-size: .8rem;
+    letter-spacing: 1px;
+    padding: 10px;
+    width: 89%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
 form {
   position: absolute;
   top: 50px;
   right: 250px;
   width: 500px;
-  color: #662d91;
   font-weight: bolder;
 }
 
@@ -229,7 +245,7 @@ footer p {
 	left: 580px;
   right: 10px;
 	align-items: center;*/
-  color: #662d91;
+  color: rgba(83,0,146,1.00);
 	font-size:1.2em;
 	font-family: sans-serif;
 }
