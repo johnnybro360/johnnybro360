@@ -173,6 +173,9 @@
     <footer class="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
         <p class="text-xs text-gray-500 dark:text-gray-400">© 2024 Jonghun Park. All rights reserved.</p>
         <nav class="sm:ml-auto flex gap-4 sm:gap-6">
+            <button id="scrollTopBtn" class="px-4 py-2 text-sm font-semibold text-white bg-blue-500 rounded hover:bg-blue-700">
+                Back to Top
+            </button>
         </nav>
     </footer>
 </div>
@@ -181,6 +184,13 @@
     AOS.init({
         duration: 2000, // Global duration for all animations
         easing: 'ease-in-out', // Global easing for all animations
+    });
+
+    document.getElementById('scrollTopBtn').addEventListener('click', function() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
     });
 </script>
 </body>
